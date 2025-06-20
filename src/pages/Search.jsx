@@ -59,6 +59,7 @@ const Search = () => {
       </aside>
       
       <section className="results-content">
+        <h3>RESULTS:</h3>
         <PropertyGrid properties={filtered} />
       </section>
     </div>

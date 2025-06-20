@@ -1,5 +1,5 @@
-import FeaturedProperties from '../components/home/FeaturedProperties';
-import AboutUs from '../components/home/AboutUs';
+import FeaturedProperties from "../components/home/FeaturedProperties";
+import AboutUs from "../components/home/AboutUs";
 
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
           Contactar asesor
         </a>
       </section>
-
+      <div className="section-divider"></div>
       <AboutUs />
 
       <section className="featured">
