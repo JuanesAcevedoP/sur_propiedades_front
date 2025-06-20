@@ -18,7 +18,7 @@ const Footer = () => {
       <div className="footer-column">
         <h4>Dirección</h4>
         <a href="https://www.google.com/maps/search/?api=1&query=Calle%2036sur%20%2342-54%20Envigado%2C%20Colombia" target="_blank" rel="noopener noreferrer">
-          <FaMapMarkerAlt /> Envigado
+          <FaMapMarkerAlt /> Cl. 36 Sur #42 - 54, Envigado
         </a>
       </div>
       <div className="footer-bottom">

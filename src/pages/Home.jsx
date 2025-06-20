@@ -16,12 +16,11 @@ const Home = () => {
           Contactar asesor
         </a>
       </section>
-      <div className="section-divider"></div>
-      <AboutUs />
-
       <section className="featured">
         <h2>Propiedades Destacadas</h2>
         <FeaturedProperties />
+      <div className="section-divider"></div>
+        <AboutUs />
       </section>
     </div>
   );

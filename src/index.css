@@ -238,7 +238,7 @@ main {
 .about h2 {
   color: #c72028;
   font-size: 1.8rem;
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .about p {
@@ -591,12 +591,12 @@ main {
 
 .about {
   padding: 60px 20px;
-  background-color: #f8f8f8;
+  background-color: #7c2525;
   text-align: center;
 }
 
 .about h2 {
-  color: #c72028;
+  color: #fff4f5;
   font-size: 2rem;
   margin-bottom: 20px;
 }
@@ -608,7 +608,7 @@ main {
 .about p {
   max-width: 800px;
   margin: 0 auto 40px;
-  color: #444;
+  color: #fffcfc;
   font-size: 1.1rem;
 }
 
