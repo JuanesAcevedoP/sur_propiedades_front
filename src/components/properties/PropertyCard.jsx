@@ -70,8 +70,18 @@ const PropertyCard = ({ property }) => {
           </span>
         </div>
 
-        <button className="btn-more-info" onClick={toggleDetails}>
-          {showDetails ? <FaChevronUp /> : <FaChevronDown />} More Info
+        <button
+          className="btn-more-info"
+          onClick={toggleDetails}
+          aria-expanded={showDetails}
+          aria-label={
+            showDetails
+              ? "Ocultar información adicional"
+              : "Ver más información"
+          }
+        >
+          {showDetails ? <FaChevronUp /> : <FaChevronDown />}
+          <span className="btn-text">More Info</span>
         </button>
 
         {showDetails && (
