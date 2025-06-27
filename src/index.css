@@ -1,11 +1,12 @@
 /* GLOBAL */
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #fdfdfd;
   color: #111;
 }
@@ -61,7 +62,7 @@ main {
 }
 
 .nav-link.active::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   bottom: -8px;
@@ -183,8 +184,12 @@ main {
 /* HERO */
 .hero {
   padding: 180px 20px 100px;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(50, 50, 50, 0.6)),
-              url('./assets/hero-background.jpg') center/cover no-repeat;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(50, 50, 50, 0.6)
+    ),
+    url("./assets/hero-background.jpg") center/cover no-repeat;
   color: #fff;
   text-align: center;
 }
@@ -229,7 +234,8 @@ main {
 }
 
 /* FEATURED & ABOUT */
-.featured, .about {
+.featured,
+.about {
   padding: 60px 20px;
   text-align: center;
 }
@@ -299,7 +305,7 @@ main {
   .navbar-links {
     gap: 20px;
   }
-  
+
   .nav-link {
     padding: 6px 10px;
     font-size: 14px;
@@ -310,12 +316,12 @@ main {
   .top-navbar {
     padding: 12px 20px;
   }
-  
+
   .navbar-container {
     flex-direction: column;
     gap: 15px;
   }
-  
+
   .navbar-links {
     gap: 15px;
     justify-content: center;
@@ -338,7 +344,7 @@ main {
   .hero p {
     font-size: 1rem;
   }
-  
+
   .sidebar {
     width: 260px;
   }
@@ -348,22 +354,22 @@ main {
   .navbar-links {
     gap: 10px;
   }
-  
+
   .nav-link {
     padding: 4px 8px;
     font-size: 13px;
   }
-  
+
   .logo {
     height: 45px;
     width: 45px;
   }
-  
+
   .floating-logo .logo {
     height: 45px;
     width: 45px;
   }
-  
+
   .sidebar {
     width: 240px;
     padding: 20px;
@@ -624,7 +630,7 @@ main {
   border-radius: 12px;
   padding: 20px;
   max-width: 300px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 .about-card h4 {
@@ -733,7 +739,21 @@ main {
   background-color: #f5f5f5;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.filter-group select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.filter-group select:focus {
+  outline: none;
+  border-color: #c72028;
+  box-shadow: 0 0 0 2px rgba(199, 32, 40, 0.2);
 }
 
 /* Área de resultados */

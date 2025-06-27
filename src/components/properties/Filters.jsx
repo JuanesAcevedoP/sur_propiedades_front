@@ -1,4 +1,3 @@
-// src/components/Filters.jsx
 const Filters = ({ filters, setFilters }) => {
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -24,7 +23,15 @@ const Filters = ({ filters, setFilters }) => {
 
       <div className="filter-group">
         <label>Tipo</label>
-        <input name="type" value={filters.type} onChange={handleChange} />
+        <select name="type" value={filters.type} onChange={handleChange}>
+          <option value="">Todos</option>
+          <option value="Apartamento">Apartamento</option>
+          <option value="Casa">Casa</option>
+          <option value="Casa campestre">Casa campestre</option>
+          <option value="Finca">Finca</option>
+          <option value="Local">Local</option>
+          <option value="Bodega">Bodega</option>
+        </select>
       </div>
 
       <div className="filter-group">
